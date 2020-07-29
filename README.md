@@ -1,2 +1,2 @@
 # .vimrc
-vim_keys
+* Personal vim_keys
