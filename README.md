@@ -3,4 +3,4 @@
  
 ### To se my preferences watch the .vimrc file
 
- As I studied more of VIM and its force. I now only use VIM as the only editor when writing scripts and even taking daily notes.
+When understanding the power and the agility of VIM editor I made a clear decision to quit all the other text editors and solely use VIM when writing scripts and even taking daily notes.
