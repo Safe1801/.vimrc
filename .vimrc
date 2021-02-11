@@ -1,4 +1,5 @@
 "Modified Vim settings
+
 filetype plugin on
 let g:pydiction_location = '/Users/sada/.vim/pydiction/complete-dict'
 set smartindent
@@ -11,6 +12,18 @@ set colorcolumn=80
 set incsearch
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 "
-" Personal Keybindings - Escape to Command Line mode
+"Keybindings - Escape to Command Line mode
+
 :imap kj <Esc>
 :imap jk <Esc> 
+
+
+"Backups and swapfiles
+
+set backup
+silent !mkdir -p ~/.vim/backup
+silent !mkdir -p ~/.vim/tmp
+set backupdir=~/.vim/backup/
+set directory=~/.vim/backup/
+set undodir=~/.vim/tmp//,.
+
